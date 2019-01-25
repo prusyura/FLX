@@ -132,7 +132,7 @@ body {
                             font-size: 20px;
                         }
                         p{
-                            font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            font:$font;
                             font-size: 15px;
                             padding: 0;
                             margin: 0 0 15px 0;
@@ -147,7 +147,7 @@ body {
                     margin-right: 10px;
                 }
                 p{
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font:$font;
                     font-size: 15px; 
                     line-height: 25px;
                     padding: 10px;; 
@@ -166,7 +166,7 @@ body {
                     display: flex;
                     flex-direction: column;
                     color: $h3Color;
-                    font-family: Verdana;
+                    font:$font;
                     font-size: 15px;
                     .formsend{
                         display: flex;

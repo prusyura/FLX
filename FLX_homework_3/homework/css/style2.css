@@ -111,7 +111,7 @@ body {
               color: #607D8B;
               font-size: 20px; }
             body .main-wrapper main section article div p {
-              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif;
               font-size: 15px;
               padding: 0;
               margin: 0 0 15px 0;
@@ -120,7 +120,7 @@ body {
       body .main-wrapper main .about h1 {
         margin-right: 10px; }
       body .main-wrapper main .about p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif;
         font-size: 15px;
         line-height: 25px;
         padding: 10px; }
@@ -135,7 +135,7 @@ body {
           display: flex;
           flex-direction: column;
           color: #607D8B;
-          font-family: Verdana;
+          font: normal 18px/26px "Palatino Linotype", "Book Antiqua", Palatino, serif;
           font-size: 15px; }
           body .main-wrapper main .contact-form form .formsend {
             display: flex;
