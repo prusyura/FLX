@@ -1,0 +1,174 @@
+body {
+  background: #fff; }
+  body .main-wrapper {
+    margin-top: -110px;
+    height: 100vh; }
+    body .main-wrapper .top-wrapper {
+      display: flex;
+      padding-top: 115px; }
+      body .main-wrapper .top-wrapper .logo {
+        display: inline-block; }
+        body .main-wrapper .top-wrapper .logo img {
+          width: 260px;
+          height: 160px;
+          padding: 0; }
+      body .main-wrapper .top-wrapper nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 50px;
+        padding-left: 400px; }
+        body .main-wrapper .top-wrapper nav a {
+          display: inline-block;
+          padding: 20px 100px;
+          border-right: 1px solid #607D8B;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-decoration: none;
+          color: #ffff; }
+          body .main-wrapper .top-wrapper nav a:last-child {
+            border-right: none; }
+    body .main-wrapper header {
+      margin: 0 auto;
+      background: url(/homework/img/header_background_v1.jpg);
+      height: 1115px;
+      width: 85%;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      body .main-wrapper header section {
+        margin-top: 270px;
+        max-width: 100%;
+        text-align: center; }
+        body .main-wrapper header section h1 {
+          width: 100%;
+          text-decoration: none;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffff;
+          margin: 30px; }
+        body .main-wrapper header section .btn-top {
+          background-color: #01ACAC;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #ffff;
+          margin-top: 25px;
+          padding: 15px 70px; }
+    body .main-wrapper main {
+      margin: 0 22%;
+      display: flex;
+      flex-direction: column; }
+      body .main-wrapper main .toolbar {
+        margin-top: 20px;
+        padding-right: 15px; }
+        body .main-wrapper main .toolbar input {
+          float: right;
+          border: 1px solid #607D8B;
+          background-color: transparent;
+          width: 220px;
+          height: 42px; }
+          body .main-wrapper main .toolbar input::placeholder {
+            color: #010F16;
+            padding-left: 20px;
+            font-size: 16px; }
+      body .main-wrapper main section {
+        display: flex;
+        flex-direction: column; }
+        body .main-wrapper main section h1 {
+          text-align: right;
+          color: #010F16;
+          text-transform: uppercase;
+          font-size: 25px;
+          padding-right: 2px;
+          margin-bottom: 0; }
+        body .main-wrapper main section article {
+          background-color: #EFEFEF;
+          display: flex;
+          margin-bottom: 20px; }
+          body .main-wrapper main section article img {
+            padding: 10px; }
+          body .main-wrapper main section article div {
+            display: flex;
+            flex-direction: column;
+            padding: 1px;
+            width: 80%; }
+            body .main-wrapper main section article div button {
+              margin-left: 480px;
+              background-color: #01ACAC;
+              text-decoration: none;
+              text-transform: uppercase;
+              color: #ffff;
+              width: 30%;
+              height: 50px; }
+            body .main-wrapper main section article div .post-description {
+              color: #ff2600;
+              font: normal 300 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+              font-size: 15px;
+              margin: 10px; }
+            body .main-wrapper main section article div h3 {
+              border-top: 1px solid #607D8B;
+              margin: 5px 0 0 0;
+              text-transform: uppercase;
+              color: #01ACAC;
+              font-size: 20px; }
+            body .main-wrapper main section article div p {
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 15px;
+              padding: 0;
+              margin: 0 0 15px 0;
+              line-height: 25px;
+              max-width: 100%; }
+      body .main-wrapper main .about h1 {
+        margin-right: 10px; }
+      body .main-wrapper main .about p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 10px; }
+      body .main-wrapper main .about img {
+        max-width: 100%; }
+      body .main-wrapper main .contact-form {
+        text-align: right; }
+        body .main-wrapper main .contact-form h4 {
+          text-transform: uppercase;
+          margin-top: 0; }
+        body .main-wrapper main .contact-form form {
+          display: flex;
+          flex-direction: column;
+          color: #01ACAC;
+          font-family: Verdana;
+          font-size: 15px; }
+          body .main-wrapper main .contact-form form .formsend {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; }
+            body .main-wrapper main .contact-form form .formsend .name-adress {
+              display: flex;
+              flex-direction: column;
+              width: 49.5%; }
+              body .main-wrapper main .contact-form form .formsend .name-adress input {
+                margin-top: 5px;
+                height: 50px;
+                margin-bottom: 20px;
+                background-color: transparent; }
+          body .main-wrapper main .contact-form form textarea {
+            background-color: transparent;
+            margin-top: 10px;
+            height: 150px; }
+          body .main-wrapper main .contact-form form button {
+            width: 20%;
+            height: 45px;
+            display: inline-flex;
+            align-self: flex-end;
+            margin-top: 20px;
+            background-color: #01ACAC;
+            text-transform: uppercase;
+            color: #ffff;
+            border: none;
+            text-align: center;
+            justify-content: center; }
+    body .main-wrapper footer {
+      margin-top: 10px; }
+      body .main-wrapper footer span {
+        padding-left: 10%; }
+
+/*# sourceMappingURL=style1.css.map */
