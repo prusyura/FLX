@@ -30,7 +30,7 @@ body {
             border-right: none; }
     body .main-wrapper header {
       margin: 0 auto;
-      background: url(/homework/img/header_background_v2.jpg);
+      background: url(../img/header_background_v2.jpg);
       height: 1115px;
       width: 85%;
       background-repeat: no-repeat;
