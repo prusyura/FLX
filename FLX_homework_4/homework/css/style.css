@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-wrapper{
+    height: 100%;
+    overflow: hidden;
+    max-width: 1920px;
+    width: 100%;
+}
+header{
+    margin-top: -11vh;
+    background: url(../img/sample2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-wrapper .top-header{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.main-wrapper .top-header .top-header-site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+.top-header-site .logo{
+    font-family: Open Sans;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.16vw;
+    padding: 2.1%;
+    font-size: 0.9em;
+    width: 20vw;
+}
+.top-header-site .login{
+    font-family: 'Open Sans', sans-serif;
+    padding: 2.2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 14vw;
+    min-width: 160px;
+}
+.top-header-site .login a{
+    color: #FFFFFF;
+    font-size: 1em;
+    text-decoration: none;
+}
+.top-header .site-name{
+    text-align: center;
+    margin-top: 8.5%;
+}
+.top-header .site-name h1{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    height: 8%;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    color: #E8E8E8;
+}
+.top-header .site-name span{
+    font-size: 1.8em;
+}
+.top-header .site-name p{
+    margin-top: 0.1%;
+    color: #E8E8E8;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+nav div{
+    margin-top: 8.9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .btn {
+    border: 1px solid #fff;
+    background-color: rgb(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 0.9em;
+    width: 10.5vw;
+    height: 5.5vh;
+    font-family: 'Open Sans', sans-serif;
+}
+nav .btn:first-child {
+    border: 1px solid #fff;
+    background-color: rgb(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    width: 11vw;
+    margin-left: 2.1vw;
+}
+nav .btn:last-child{
+    border: 1px solid #fff;
+    background-color: rgb(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    width: 12.3vw;
+    margin-right: 2.1vw;
+}
+nav .btn a{
+    text-decoration: none;
+    color: #F0F0F0;
+}
+main .section-top{
+    background-color: #000;
+    height: 35vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 33%);
+    z-index: 1;
+}
+.section-top .text-header{
+    width: 45.5%;
+    margin-top: 11.5vh;
+    margin-right: 3.5vw;
+    position: relative;
+    float: right;
+}
+.text-header p{
+    font-family: 'Open Sans', sans-serif;
+    color: #E8E8E8;
+    font-size: 0.85em;
+}
+main{
+    background-color: #F3F3F3;
+}
+.sec-main .text-header-left{
+    position: relative;
+    margin-top: -12.5vh;
+    width: 22vw;
+    height: 10vh;
+    padding-left: 2.1vw;
+    min-width: 300px;
+}
+.sec-main .text-header-left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+}
+.text-header-left p span{
+    font-weight: bold;
+}
+.sec-main h2{
+    text-align: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.sec-main h2 span{
+    font-weight: normal;
+}
+.sec-main .main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2%;
+}
+.sec-main .main-box .img-main{
+    background: url(../img/sample.jpg);
+    background-size: cover;
+    width: 66vw;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 400px;
+}
+.main-box .img-main .like{
+    margin-left: 91%;
+    margin-top: 2.5%;
+    width: 7vw;
+}
+.main-box .img-main .like button{
+    width: 3.5vw;
+    height: 3.7vh;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid #ffffff;
+    color: #FFFFFF;
+    background-color: rgb(0,0,0,0.5);
+    min-width: 35px;
+}
+.main-box .img-main .data-img{
+    margin-bottom: 2.1%;
+    margin-left: 2.5%;
+}
+.img-main .data-img p{
+    font-family: 'Open Sans', sans-serif;
+    color: #E8E8E8;
+    font-size: 0.9em;
+}
+.img-main .data-img p span{
+    font-weight: bold;
+}
+.main-box .artic-main .artic-main-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+    text-align: center;
+    width: 80%;
+}
+.artic-main .artic-main-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.88em; 
+    margin-top: 7.1vh;
+}
+.artic-main .artic-main-content p:first-child{
+    margin-top: 3.5vh;
+}
+.explores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 1%;
+    background-color: #FFFFFF;
+    margin-top: 3vh;
+    height: 27vh;
+}
+.explores .explores-box{
+    margin-top: 4vh;
+    background-color: #FFFFFF;
+    width: 17vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 3px 6px 0px #000000;
+    min-width: 200px;
+}
+.explores .explores-box p{
+    margin-left: 3%;
+    padding: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.92em;
+}
+.explores .explores-box button{
+    width: 14.5vw;
+    height: 4vh;
+    margin-bottom: 1.8vh;
+    background-color: #097774;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.newsletter p{
+    margin-top: 3vh;
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.88em;
+}
+.newsletter .newsletter-messag{
+    float: right;
+    padding-right: 1%;
+}
+.newsletter .newsletter-messag label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-right: 1vw;
+}
+.newsletter .newsletter-messag input{
+    width: 8vw;
+    height: 4vh;
+    background-color: transparent;
+    border: #9E9E9E 1.5px solid;
+    padding-left: 1vw;
+    color: #000000;
+    min-width: 150px;
+}
+.newsletter .newsletter-messag button{
+    width: 4vw;
+    height: 4vh;
+    font-family: Open Sans;
+    background-color: #097774;
+    color: #E8E8E8;
+    font-weight: bold;
+    min-width: 80px;
+}
+.asid{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8.4vh;
+    justify-content: space-around;
+}
+.asid .asid-box{
+    width: 25vw;
+    background-color: #FFFFFF;
+    height: 30vh;
+    padding-top: 12vh;
+}
+.asid .asid-box h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+.asid .asid-box:nth-child(1){
+    padding-left: 2.1vw;
+}
+.asid .asid-box:nth-child(2){
+    padding-left: 1.4vw;
+}
+.asid .asid-box:nth-child(3){
+    padding-left: 0.4vw;
+}
+.asid .asid-box:nth-child(3){
+    padding-left: 0.5vw;
+    padding-right: 15.5vw;
+    line-height: 2.5vh;
+}
+.asid .asid-box:nth-child(4){
+    padding-right: 2vw;
+}
+.asid .asid-box p{
+    margin-top: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    color: #9E9E9E;
+}
+.asid .asid-box p:nth-child(3){
+    margin-top: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+.asid .asid-box p span{
+    line-height: 3vh;
+    color: #E8E8E8
+}
+.asid .asid-box input{
+    width: 8vw;
+    height: 4vh;
+    background-color: #F3F3F3;
+    border: 1px solid #000000;
+    padding-left: 1vw;
+    color: #000000;
+    min-width: 130px;
+}
+.asid .asid-box button{
+    width: 4.5vw;
+    height: 4vh;
+    background-color: #097774;
+    color: #E8E8E8;
+    font-weight: bold;
+    font-size: 0.9em;
+    min-width: 80px;
+}
+.footer-bar{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin: 7vh 2vw;
+    width: 96vw;
+    height: 0.3vh;
+    border-top: #E8E8E8 1px solid;
+}
+.footer-bar p{
+    margin-top: 2vh;
+    color: #9E9E9E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+.footer-bar .footer-nav{
+    margin-top: 2vh;
+}
+.footer-bar .footer-nav a{
+    padding-right: 1.2vw;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.85em;
+    color: #000;
+}
