@@ -116,6 +116,9 @@ main .blog-time{
   padding: 1%;
   color: #b8b8b8;
 }
+.data-text:hover {
+  filter: opacity(80%)
+}
 .blog-time .post:nth-of-type(even) .data-text{
   display: flex;
   flex-direction: row;
