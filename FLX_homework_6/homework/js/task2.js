@@ -22,8 +22,8 @@ function moneyDiscount(){
         var saleprice = a-savemoney;
         (alert("Price without discount: " + a+"$"));
         (alert("Discount: " + b+"%"));
-        (alert("Price with discount: " +Math.round( saleprice* 100) / 100 +"$"));
-        (alert("Saved:  " +Math.round( savemoney* 100) / 100 +"$"));
+        (alert("Price with discount: " +Math.floor( saleprice* 100) / 100 +"$"));
+        (alert("Saved:  " +Math.floor( savemoney* 100) / 100 +"$"));
     }
 }
 moneyDiscount()
