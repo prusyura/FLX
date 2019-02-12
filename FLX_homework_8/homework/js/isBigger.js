@@ -1,5 +1,4 @@
 function isBigger(a, b){
-    a > b;
-    return true;
+    return a > b;
 }
 isBigger(5, -1);

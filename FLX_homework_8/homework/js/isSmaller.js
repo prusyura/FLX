@@ -1,6 +1,5 @@
 function isBigger(a, b){
-    a > b;
-    return true;
+    return a > b;
 }
 function isSmaller(a, b) {
 	if (a < b) {
@@ -9,4 +8,4 @@ function isSmaller(a, b) {
 		return false;
 	}
 }
-isSmaller(5 -1);
+isSmaller(5, -1);
