@@ -1,9 +1,9 @@
 function userCard(index){
     let infoCard = {
+        key: index,
         balance: 100,
         transactionLimit: 100,
-        historyLogs: [],
-        key: index
+        historyLogs: []
     };
     this.index = {
         type: Number,
