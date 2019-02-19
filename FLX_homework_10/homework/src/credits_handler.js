@@ -27,7 +27,7 @@ function userCard(index){
         historyLogsAdd('Received credits', limit, date);
     };
     const takeCredits = function (limit) {
-        if(infoCard.balance >= limit && limit <= infoCard.transactionLimit){
+        if(infoCard.balance >= limit <= infoCard.transactionLimit){
             infoCard.balance -= limit;
             historyLogsAdd('Withdrawal of credits', limit, date);
         }else{
@@ -38,16 +38,14 @@ function userCard(index){
         infoCard.transactionLimit = limit;
         historyLogsAdd('Transaction limit change', limit, date);
     };
-    const transferCredits = function(limit){
+    const transferCredits = function(limit, card){
         let taxed = 0.005;
         let limitTaxed = limit + limit * taxed;
-        if (limitTaxed > infoCard.balance && limitTaxed > infoCard.transactionLimit){
+        if (infoCard.balance < limitTaxed > infoCard.transactionLimit){
             console.error(error);
         }else{
             this.takeCredits(limitTaxed);
-            historyLogsAdd('Withdrawal of credits', limit, date);
-            this.putCredits(limit);
-            historyLogsAdd('Received credits', limit, date);
+            card.putCredits(limit);
         }
     };
     return {
